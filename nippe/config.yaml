@@ -1,7 +1,7 @@
-name: "Hello world"
-description: "My first real add-on!"
+name: "NiPPE"
+description: "Nibe Power Performance Enhancement"
 version: "0.0.1"
-slug: "hello_world"
+slug: "nippe"
 init: false
 arch:
   - aarch64
