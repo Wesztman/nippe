@@ -1,2 +1,2 @@
 # NiPPE
-Nibe Power Performance Enhancement
+**Ni**be **P**ower **P**erformance **E**nhancement
