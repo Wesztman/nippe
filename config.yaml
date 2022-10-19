@@ -1,6 +1,6 @@
 name: "NiPPE"
 description: "Nibe Power Performance Enhancement"
-version: "0.0.1"
+version: "0.0.2"
 slug: "nippe"
 url: "https://github.com/Wesztman/nippe"
 init: false
