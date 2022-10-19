@@ -2,6 +2,7 @@ name: "NiPPE"
 description: "Nibe Power Performance Enhancement"
 version: "0.0.1"
 slug: "nippe"
+url: "https://github.com/Wesztman/nippe"
 init: false
 arch:
   - aarch64
