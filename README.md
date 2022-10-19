@@ -1,4 +1,2 @@
-# A Collection of Home Assistant Addons
-
-## NiPPE
+# NiPPE
 **Ni**be **P**ower **P**erformance **E**nhancement
