@@ -2,6 +2,8 @@
 
 [![Lint](https://github.com/Wesztman/nippe/actions/workflows/lint.yaml/badge.svg)](https://github.com/Wesztman/nippe/actions/workflows/lint.yaml)
 [![Builder](https://github.com/Wesztman/nippe/actions/workflows/builder.yaml/badge.svg)](https://github.com/Wesztman/nippe/actions/workflows/builder.yaml)
+
+[![Container](https://ghcr-badge.herokuapp.com/wesztman/nippe/latest_tag)](https://github.com/Wesztman/nippe/pkgs/container/nippe)
 ## Contributing
 ### Prerequisites
 
