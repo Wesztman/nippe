@@ -1,5 +1,7 @@
 # NiPPE - **Ni**be **P**ower **P**erformance **E**nhancement
 
+[![Lint](https://github.com/Wesztman/nippe/actions/workflows/lint.yaml/badge.svg)](https://github.com/Wesztman/nippe/actions/workflows/lint.yaml)
+[![Builder](https://github.com/Wesztman/nippe/actions/workflows/builder.yaml/badge.svg)](https://github.com/Wesztman/nippe/actions/workflows/builder.yaml)
 ## Contributing
 ### Prerequisites
 
