@@ -19,3 +19,7 @@
 3. Wait for the container to start, this can take a while
 4. You can now access Home Assistant at [http://localhost:7123](http://localhost:7123)
 5. The addons in the repository are now available in the "Add-on Store" under local addons in Home Assistant
+
+## Documentation
+
+https://developers.home-assistant.io/docs/add-ons
