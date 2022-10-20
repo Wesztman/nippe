@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: "NiPPE"
-version: "0.0.4"
+version: "0.0.5"
 slug: "nippe"
 description: "Nibe Power Performance Enhancement"
 url: "https://github.com/Wesztman/nippe"
@@ -18,3 +18,4 @@ options:
 schema:
   message: "str?"
 # image: "ghcr.io/home-assistant/{arch}-addon-example"
+image: "ghcr.io/wesztman/nippe/{arch}-nippe"
