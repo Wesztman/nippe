@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: "NiPPE"
-version: "0.0.3"
+version: "0.0.4"
 slug: "nippe"
 description: "Nibe Power Performance Enhancement"
 url: "https://github.com/Wesztman/nippe"
