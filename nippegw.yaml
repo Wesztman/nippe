@@ -1,0 +1,35 @@
+esphome:
+  name: nippegw
+  platformio_options:
+    board_build.variant: esp32c3
+    board_build.f_flash: 40000000L
+    board_build.flash_mode: dio
+    board_build.flash_size: 4MB
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+    version: dev
+    platform_version: https://github.com/platformio/platform-espressif32.git#feature/arduino-upstream
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "<Your SSID>"
+  password: "<Your Password>"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Nippegw Fallback Hotspot"
+    password: "ftPxCjnZxMuG"
+
+captive_portal:
