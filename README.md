@@ -48,7 +48,7 @@ Tests can also be run through VSCodes [Command Palette or Test Explorer](https:/
 
 1. Make the following change to the copied text (above = before, below = after)
 
-    ![image](.\docs\resources\merge-fix.png)
+    ![image](./docs/resources/merge-fix.png)
 
 1. Run the following
 
