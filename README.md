@@ -38,7 +38,7 @@ Tests can also be run through VSCodes [Command Palette or Test Explorer](https:/
 1. Change ssid and password to match your wifi in the nippegw.yaml file in the root of the project
 1. Run `esphome -v compile nippegw.yaml` in the root of the project which will probably fail with the following message
 
-    ![image](.\doc\resources\compile-command-fail.png)
+    ![image](.\docs\resources\compile-command-fail.png)
 
 1. Copy the argument from the last 3 rows in the above picture i.e.
 
@@ -48,7 +48,7 @@ Tests can also be run through VSCodes [Command Palette or Test Explorer](https:/
 
 1. Make the following change to the copied text (above = before, below = after)
 
-    ![image](.\doc\resources\merge-fix.png)
+    ![image](.\docs\resources\merge-fix.png)
 
 1. Run the following
 
@@ -61,7 +61,7 @@ Tests can also be run through VSCodes [Command Palette or Test Explorer](https:/
 
 1. Open device manager to find the COM port that the device is connected to (in our case COM9)
 
-    ![image](.\doc\resources\com-port.png)
+    ![image](.\docs\resources\com-port.png)
 
 1. Run the following command in the root of the project to flash the device
 
