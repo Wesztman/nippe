@@ -49,8 +49,7 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "git config --global --add safe.directory /workspaces/nippe",
-  "postStartCommand": "sudo pip install -e .[dev,doc]",
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && pip install --upgrade pip && sudo pip install -e .[dev,doc]",
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode"
 }
