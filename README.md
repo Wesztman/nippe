@@ -1,8 +1,5 @@
 # NiPPE - **Ni**be **P**ower **P**erformance **E**nhancement
 
-[![Lint](https://github.com/Wesztman/nippe/actions/workflows/lint.yaml/badge.svg)](https://github.com/Wesztman/nippe/actions/workflows/lint.yaml)
-[![Builder](https://github.com/Wesztman/nippe/actions/workflows/builder.yaml/badge.svg)](https://github.com/Wesztman/nippe/actions/workflows/builder.yaml)
-[![Container](https://ghcr-badge.herokuapp.com/wesztman/nippe/latest_tag)](https://github.com/Wesztman/nippe/pkgs/container/nippe)
 ## Contributing
 ### Prerequisites
 
@@ -15,18 +12,6 @@
 1. Open the repository in VSCode
 1. A window will pop up in the lower left corner, asking if you want to open the repository in a container. Click "Reopen in Container"
  (**OR** press `F1` and type "Remote-Containers: Reopen in Container")
-
-### Testing addon locally
-
-1. Press `F1` and type "Run Task"
-1. Choose "Start Home Assistant"
-1. Wait for the container to start, this can take a while
-1. You can now access Home Assistant at [http://localhost:7123](http://localhost:7123)
-1. The addons in the repository are now available in the "Add-on Store" under local addons in Home Assistant
-
-### Documentation
-
-<https://developers.home-assistant.io/docs/add-ons>
 
 ### Building code for ESP device
 
