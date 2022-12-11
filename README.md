@@ -1,23 +1,22 @@
 # NiPPE - **Ni**be **P**ower **P**erformance **E**nhancement
 
-## Contributing
-### Prerequisites
+## Prerequisites
 
 * [VSCode](https://code.visualstudio.com/)
 * [Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-### Open in Container
+## Open in Container
 
 1. Clone the repository to your local machine
 1. Open the repository in VSCode
 1. A window will pop up in the lower left corner, asking if you want to open the repository in a container. Click "Reopen in Container"
  (**OR** press `F1` and type "Remote-Containers: Reopen in Container")
 
-### Formatting
+## Formatting
 
 Formatting is strictly done by [Black](https://black.readthedocs.io/en/stable/) and the project is setup to automatically format on save.
 
-### Versioning
+## Versioning
 
 Versioning follows SemVer and is handled automatically by [setuptools-git-versioning](https://setuptools-git-versioning.readthedocs.io/en/stable/) together with tags.
 
@@ -31,7 +30,7 @@ The tests should be added in the `tests/` folder and can be run by executing `py
 
 Tests can also be run through VSCodes [Command Palette or Test Explorer](https://code.visualstudio.com/docs/python/testing#_run-tests).
 
-### Building code for ESP device
+## Building code for ESP device
 
 1. Install [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension in VSCode
 1. Install [ESPHome](https://esphome.io/guides/installing_esphome.html#windowsii) locally
