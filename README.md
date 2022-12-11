@@ -13,6 +13,24 @@
 1. A window will pop up in the lower left corner, asking if you want to open the repository in a container. Click "Reopen in Container"
  (**OR** press `F1` and type "Remote-Containers: Reopen in Container")
 
+### Formatting
+
+Formatting is strictly done by [Black](https://black.readthedocs.io/en/stable/) and the project is setup to automatically format on save.
+
+### Versioning
+
+Versioning follows SemVer and is handled automatically by [setuptools-git-versioning](https://setuptools-git-versioning.readthedocs.io/en/stable/) together with tags.
+
+To get the current version you can run `setuptools-git-versioning` in a terminal inside of the repo.
+
+## Testing
+
+We encourage you to provide unit tests for your code contributions.
+
+The tests should be added in the `tests/` folder and can be run by executing `pytest` in a terminal.
+
+Tests can also be run through VSCodes [Command Palette or Test Explorer](https://code.visualstudio.com/docs/python/testing#_run-tests).
+
 ### Building code for ESP device
 
 1. Install [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension in VSCode
