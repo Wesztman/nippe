@@ -69,3 +69,7 @@ Tests can also be run through VSCodes [Command Palette or Test Explorer](https:/
     ```
 
 1. Press the "BOOT" button on the esp device to load the new firmware, the device will show up as a wifi called "nippegw" in your wifi list
+
+<p>
+  <h1 align="right"><b>🦆<img src="" alt="" width="100"></h1>
+</p>
